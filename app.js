@@ -72,7 +72,7 @@ function speakThis(message) {
     }
 
     else if(message.includes('open google')) {
-        window.open("https://www.youtube.com/", "_blank");
+        window.open("https://www.google.com/", "_blank");
         const finalText = "Opening Google";
         speech.text = finalText;
     }
@@ -99,7 +99,7 @@ function speakThis(message) {
     }
  else if(message.includes('open a y t')) {
         window.open("https://youtube.com/@ayt2802", "_blank");
-        const finalText = "Opening ayt";
+        const finalText = "Opening a y t";
         speech.text = finalText;
     }
 else if(message.includes('open whatsapp')) {
@@ -144,8 +144,8 @@ else if(message.includes('open whatsapp')) {
     }
 
     speech.volume = 3;
-    speech.pitch = 1;
-    speech.rate = 1;
+    speech.pitch = -1;
+    speech.rate = 2;
 
     window.speechSynthesis.speak(speech);
 }
