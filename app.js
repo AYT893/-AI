@@ -35,7 +35,7 @@ window.addEventListener('load', ()=>{
     speak("Activating jarvis");
     speak("Going online");
     wishMe();
-})
+}
 
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
