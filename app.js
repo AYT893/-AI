@@ -143,9 +143,9 @@ else if(message.includes('open whatsapp')) {
         speech.text = finalText;
     }
 
-    speech.volume = 3;
-    speech.pitch = 5;
-    speech.rate = 5;
+    speech.volume = 8;
+    speech.pitch = 2;
+    speech.rate = 2;
 
     window.speechSynthesis.speak(speech);
 }
